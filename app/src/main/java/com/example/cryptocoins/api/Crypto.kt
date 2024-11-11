@@ -19,7 +19,7 @@ fun Crypto.getIcon(): Int {
         this.type == "coin" && this.isActive -> R.drawable.ic_coin_active
         this.type == "coin" && !this.isActive -> R.drawable.ic_coin_inactive
         this.type == "token" -> R.drawable.ic_token
-        else -> 0 //todo placeholder image
+        else -> 0
     }
 }
 
