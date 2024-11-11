@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llError"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:layout_width="@dimen/progress_loader_size"
+        android:layout_height="@dimen/progress_loader_size"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/baseline_error_outline" />
+
+    <TextView
+        android:id="@+id/tvLabelError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/message_line_spacing"
+        android:paddingHorizontal="@dimen/margin_default"
+        android:text="@string/no_network_connection"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:text="@string/label_retry"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CryptoCoins</string>
+    <string name="title_crypto_list_fragment">Coins</string>
+    <string name="label_search">Search</string>
+    <string name="label_filter">Filter</string>
+    <string name="search_hint">Enter name or symbol</string>
+    <string name="label_loading">Loading…</string>
+    <string name="error_generic">Something went wrong!</string>
+
+    <string name="label_filter_active">Active</string>
+    <string name="label_filter_inactive">Inactive</string>
+    <string name="label_filter_only_coins">Only Coins</string>
+    <string name="label_filter_only_tokens">Only Tokens</string>
+    <string name="label_filter_new">New</string>
+
+    <string name="no_data_found">No data found for the search and/or filter.</string>
+    <string name="no_network_connection">Not connected to the internet. \nPlease check your connection and try again.</string>
+    <string name="label_retry">Retry</string>
+
+</resources>

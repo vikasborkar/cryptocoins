@@ -1,0 +1,24 @@
+# Android specific files
+*.iml
+.gradle/
+local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/vcs.xml
+/.idea/codeStyles/Project.xml
+
+# Gradle files
+.gradle/
+build/
+gradle/
+/build/
+
+# Release and baseline files
+app/release/
+app/baselineProfiles/
+
+# Other
+.idea/
+*.log

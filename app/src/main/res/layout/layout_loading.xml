@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llLoading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/fragment_crypto_list">
+
+    <ProgressBar
+        android:layout_width="@dimen/progress_loader_size"
+        android:layout_height="@dimen/progress_loader_size" />
+
+    <TextView
+        android:id="@+id/tvLabelLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/message_line_spacing"
+        android:paddingHorizontal="@dimen/margin_default"
+        android:text="@string/label_loading"
+        android:textSize="14sp" />
+</LinearLayout>
